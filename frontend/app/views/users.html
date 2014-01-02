@@ -1,0 +1,27 @@
+<div class="header" ng-include src="'views/header.html'"></div>
+<h2>List Of All Users</h2>
+<p>This is the users view.</p>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <table class="table table-striped">
+            <tr>
+            	<th>Name</th>
+            	<th>Action</th>
+            </tr>
+            <tr ng-repeat="user in users">
+            	<td>
+            		<a href="#/users/show/{{user._id}}">{{ user.name }}</a>
+            	</td>
+            	<td>
+            	  <a href="#/users/edit/{{user._id}}" class="icon-edit btn btn-xs btn-primary" title="Edit User {{ user.name }}">&nbsp;</a> 
+            	  <a href="#/users/delete/{{user._id}}" class="icon-trash  btn btn-xs btn-danger" title="Delete User {{ user.name }}">&nbsp;</a>
+            	</td>
+            </tr>
+        </table>
+    </div>
+    <div class="panel-footer">
+        <a href="#/users/create" class="btn btn-primary">CREATE NEW USER</a>
+    </div>
+</div>
+<div class="footer" ng-include src="'views/footer.html'"></div>
+ 

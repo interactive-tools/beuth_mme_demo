@@ -1,0 +1,28 @@
+# Created by http://gitignore.io
+
+### Bower ###
+bower_components
+
+
+### Node ###
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+pids
+logs
+results
+
+npm-debug.log
+node_modules
+
+dist
+.tmp
+.sass-cache
+app/bower_components
+/nbproject/private/

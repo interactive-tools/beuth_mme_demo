@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2013 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="trash" unicode="&#xe804;" d="m286 439v-321q0-8-5-13t-13-5h-36q-8 0-13 5t-5 13v321q0 8 5 13t13 5h36q8 0 13-5t5-13z m143 0v-321q0-8-5-13t-13-5h-36q-8 0-13 5t-5 13v321q0 8 5 13t13 5h36q8 0 13-5t5-13z m142 0v-321q0-8-5-13t-12-5h-36q-8 0-13 5t-5 13v321q0 8 5 13t13 5h36q7 0 12-5t5-13z m72-404v529h-500v-529q0-12 4-22t8-15t6-5h464q2 0 6 5t8 15t4 22z m-375 601h250l-27 65q-4 5-9 6h-177q-6-1-10-6z m518-18v-36q0-8-5-13t-13-5h-54v-529q0-46-26-80t-63-34h-464q-37 0-63 33t-27 79v531h-53q-8 0-13 5t-5 13v36q0 8 5 13t13 5h172l39 93q9 21 31 35t44 15h178q22 0 44-15t30-35l39-93h173q8 0 13-5t5-13z" horiz-adv-x="785.7" />
+<glyph glyph-name="floppy" unicode="&#xe801;" d="m214-7h429v214h-429v-214z m500 0h72v500q0 8-6 21t-11 20l-157 156q-5 6-19 12t-22 5v-232q0-22-15-38t-38-16h-322q-22 0-37 16t-16 38v232h-72v-714h72v232q0 22 16 38t37 16h465q22 0 38-16t15-38v-232z m-214 518v178q0 8-5 13t-13 5h-107q-7 0-13-5t-5-13v-178q0-8 5-13t13-5h107q7 0 13 5t5 13z m357-18v-518q0-22-15-38t-38-16h-750q-23 0-38 16t-16 38v750q0 22 16 38t38 16h517q23 0 50-12t42-26l156-157q16-15 27-42t11-49z" horiz-adv-x="857.1" />
+<glyph glyph-name="fast-backward" unicode="&#xe803;" d="m0 350q0 14 14 24l374 248q20 14 36 6t16-36l0-482q0-28-16-36t-36 6l-374 248q-14 8-14 22z m454 0q0 14 14 24l360 248q20 14 36 6t16-36l0-482q0-28-16-36t-36 6l-360 248q-14 8-14 22z" horiz-adv-x="880" />
+<glyph glyph-name="edit" unicode="&#xe800;" d="m90 589l0-593l444 0l0 262l90 101l0-453l-624 0l0 760l541 0l-75-77l-376 0z m749 180c35-34 32-88-3-124l-57-56l17 75l-63 64l-74-17l56 57c35 35 90 35 124 1z m-219-99c0 3 65 20 75 23l1 1l67-69c-4 0-23-75-23-75l-371-384l-159-36l-2 1l41 158z m-247-422l-45 46l-35-6l-23-22l-10-40l46-45l39 9l23 23z" horiz-adv-x="864" />
+<glyph glyph-name="doc-new" unicode="&#xe802;" d="m0-150l0 818l188 182l519 0l0-348l-86 0l0 260l-369 0l0-156l-166 0l0-668l418 0l0-88l-504 0z m373 207l0 162l209 0l0 207l160 0l0-207l207 0l0-162l-207 0l0-207l-160 0l0 207l-209 0z" horiz-adv-x="949" />
+</font>
+</defs>
+</svg>

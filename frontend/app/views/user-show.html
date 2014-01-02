@@ -1,0 +1,25 @@
+<div class="header" ng-include src="'views/header.html'"></div>
+
+<h2>This Is The User View</h2>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div class="row">
+            <div class="col-xs-3">Name:</div>
+            <div class="cols-xs-9">{{ user.name }}</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-3">E-mail:</div>
+            <div class="cols-xs-9">{{ user.email }}</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-3">Gender:</div>
+            <div class="cols-xs-9">{{ user.gender }}</div>
+        </div>
+    </div>
+    <div class="panel-footer">
+        <a href="#/users/list" class="icon-fast-backward btn-primary btn"> BACK</a>
+    </div>
+</div>
+<div class="footer" ng-include src="'views/footer.html'"></div>
+
+
