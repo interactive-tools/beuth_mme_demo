@@ -25,7 +25,7 @@ Both apps client and backend require nodejs.
 
 The backend app assumes that you have a working MongoDB installation on your machine which is running on `localhost` using the MongoDB default port `27018`.
 
-The frontend app was made with [YEOMAN](http://yeoman.io/) and requires at least `grunt` as a preview server.
+The frontend app was made with [YEOMAN](http://yeoman.io/) and requires at least `bower`and `grunt` for dependency management and as a preview server.
 
 ### Backend ###
 
@@ -50,6 +50,7 @@ You can adjust the connection settings to the MongoDB in `model/db.js` by changi
 After cloning the repository, cd into the `frontend/` directory and run:
 
     npm install;
+    bower install;
 
 This will install all dependencies like AngularJS, Restangular etc. 
 
