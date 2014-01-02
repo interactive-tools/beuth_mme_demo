@@ -1,7 +1,6 @@
 var mongoose = require( 'mongoose' );
 
-//Schema Definitions
-
+//Schema Definition
 var userSchema = new mongoose.Schema({
  name: { type: String, required: true }, 
  email: { type: String, required: true }, 
@@ -12,6 +11,6 @@ var userSchema = new mongoose.Schema({
 mongoose.model( 'User', userSchema );
 
 
-//COnnect Database
+//Connect Database
 mongoose.connect( 'mongodb://localhost/rest_example' );
 

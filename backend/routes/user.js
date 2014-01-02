@@ -19,9 +19,12 @@ exports.list = function(req, res){
 	
 };
 
+/*
+ * Display a single user.
+ */
 exports.show = function(req, res){
 
-	 var UserModel = mongoose.model( 'User' );	
+	 var UserModel = mongoose.model('User');	
 	
 	//Get User req.params.userId
     return UserModel.findById(req.params.userId, function (err, user) {
@@ -33,6 +36,9 @@ exports.show = function(req, res){
     });
 };
 
+/*
+ * Create a new user record and store it into the MongoDB
+ */
 exports.create = function(req, res){
 	
     var UserModel = mongoose.model('User');	
@@ -66,6 +72,9 @@ exports.create = function(req, res){
      return res.json(user);
 };
 
+/*
+ * Update an existing user record and store it into the MongoDB
+ */
 exports.update = function(req, res){
 
     var UserModel = mongoose.model('User');	
@@ -96,6 +105,10 @@ exports.update = function(req, res){
 	  });
 };
 
+/*
+ * Delete an existing user record from the MongoDB
+ */
+
 exports.delete = function(req, res){
 	
     var UserModel = mongoose.model('User');	
@@ -112,8 +125,5 @@ exports.delete = function(req, res){
           return res.json(false);
         }
       });
-    });
-	
-		
-
+    });		
 };
