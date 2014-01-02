@@ -26,7 +26,7 @@ angular.module('restExampleFeApp')
 		  
 		  flash.success = 'User has been updated';
 		  
-		  $location.path('/users/list');
+		  $location.path('/');
 
 	  }
 	  

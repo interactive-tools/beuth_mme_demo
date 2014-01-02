@@ -1,5 +1,10 @@
 'use strict';
 
+/**
+ * This is the main configuration for the client app.
+ *
+ * It starts with a list of all modules.
+ */
 angular.module('restExampleFeApp', [
 'ngCookies',
 'ngResource',
@@ -9,31 +14,21 @@ angular.module('restExampleFeApp', [
 'angular-flash.service', 
 'angular-flash.flash-alert-directive'
 ])
+/**
+ * Configuration of the Restangular module which is used for talking to the backend
+ */
 .config(function(RestangularProvider) {
+	//Set the base URL that points to the bakend app
 	RestangularProvider.setBaseUrl('http://192.168.0.133:3000');
 })
-.config(function (flashProvider) {
-
-	// Support bootstrap 3.0 "alert-danger" class with error flash types
-	flashProvider.errorClassnames.push('alert-danger');
-
-	/**
-	* Also have...
-	*
-	* flashProvider.warnClassnames
-	* flashProvider.infoClassnames
-	* flashProvider.successClassnames
-	*/
-
-})
+/**
+ * Routing configuration.
+ * Assigns routes to templates and controller classes
+ */
 .config(function($routeProvider) {
 	$routeProvider
 	.when('/', {
-		templateUrl: 'views/main.html',
-		controller: 'MainCtrl'
-	})
-	.when('/users/list', {
-		templateUrl: 'views/users.html',
+		templateUrl: 'views/user-list.html',
 		controller: 'UsersCtrl'
 	})
 	.when('/users/show/:userId', {
@@ -53,6 +48,23 @@ angular.module('restExampleFeApp', [
 		controller: 'UserDeleteCtrl'
 	})
 	.otherwise({
-		redirectTo: '/users/list'
+		redirectTo: '/'
 	});
+})
+/**
+ * Configuration of the flash messenger which is used to display notifications 
+ */
+.config(function (flashProvider) {
+
+	// Support bootstrap 3.0 "alert-danger" class with error flash types
+	flashProvider.errorClassnames.push('alert-danger');
+
+	/**
+	* Also have...
+	*
+	* flashProvider.warnClassnames
+	* flashProvider.infoClassnames
+	* flashProvider.successClassnames
+	*/
+
 });
